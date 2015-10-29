@@ -4,7 +4,7 @@
 <groupId>br.com.ufg.inf.prova.jhordan</groupId>
 <artifactId>prova</artifactId>
 <version>1.0</version>
-<packaging>pow</packaging>
+<packaging>pom</packaging>
 <modules>
 <module>algoritmo1</module>
 <module>algoritmo2</module>
