@@ -24,7 +24,7 @@ public class DiaSemanaTest {
      */
     @org.junit.Test(expected = IllegalArgumentException.class)
     public void testDiaInvalido() {
-        DiaSemana.diaSemana(-5, 6, 2000);
+        DiaSemana.diaSemana(2, 6, 2000);
     }
 
     /**
