@@ -1,18 +1,24 @@
 package br.ufg.inf.es.construcao.algoritmo4;
 
 /**
- * Classe para implementação da função que retorna o produto de dois números
+ *
+ * Produto é a classe para a resolução do algorítmo 4, da prova de Construção de
+ * Software (UFG), ministrada pelo professor Fábio Nogueira de Lucena.
+ *
+ * @author Jhordan Gabriel
  */
 public class Produto {
 
     /**
-     * Obtém o produto de dois números
+     * Retorna o produto de dois números infomados.
      *
      * @param numero1
      * @param numero2
      *
-     * @return int soma - Produto dos dois números informados
+     * @return int soma 
      *
+     * @throws IllegalArgumentException Se os números informados forem
+     * negativos.
      */
     public static int produto(int numero1, int numero2) {
         if (numero1 < 0) {
@@ -32,7 +38,7 @@ public class Produto {
             soma += numero1;
             auxiliar++;
         }
-        
+
         return soma;
     }
 }

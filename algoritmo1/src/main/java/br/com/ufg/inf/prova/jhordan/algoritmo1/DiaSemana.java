@@ -1,18 +1,32 @@
 package br.com.ufg.inf.prova.jhordan.algoritmo1;
 
 /**
- * Classe para implementação da função diaSemana
+ *
+ * SomaNaturais é a classe para a resolução do algorítmo 1, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
  */
 public class DiaSemana {
 
     /**
-     * Obtém o dia da semana de uma dada data.
+     * Retorna o dia da semana de determinada data.
      *
-     * @param dia
-     * @param mes
-     * @param ano
+     * @param dia Dia da data.
+     * @param mes Mês da data.
+     * @param ano Ano da data.
      *
-     * @return O valor correspondente ao dia da semana informado
+     * @return      <code>0</code> Dia da semana referente à segunda-feira.
+     * <code>1</code> Dia da semana referente à terça-feira. <code>2</code> Dia
+     * da semana referente à quarta-feira. <code>3</code> Dia da semana
+     * referente à quinta-feira. <code>4</code> Dia da semana referente à
+     * sexta-feira. <code>5</code> Dia da semana referente à sábado.
+     * <code>6</code> Dia da semana referente à domingo.
+     *
+     * @throws IllegalArgumentException Se o data informada for inválida, ou
+     * seja, se o dia não estiver entre 1 e 31, o mês não estiver entre 1 e 12
+     * (Janeiro à Dezembro) e o ano não for maior que 1973.
      *
      */
     public static int diaSemana(int dia, int mes, int ano) {
@@ -38,6 +52,5 @@ public class DiaSemana {
                 - ano / 100 + ano / 400;
 
         return diaSemana % 7;
-
     }
 }

@@ -1,14 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo6;
 
-/**
- *
- * @author Jhordan
- */
 public class PotenciaSoma {
-    
+
+    public static int potenciaSoma(int numero1, int numero2) {
+        if (numero1 < 1) {
+            throw new IllegalArgumentException("O primeiro número informado"
+                    + " não pode ser menor que um.");
+        }
+
+        if (numero2 < 1) {
+            throw new IllegalArgumentException("O segundo número informado"
+                    + " não pode ser menor que um.");
+        }
+
+        int auxiliar = 1;
+        int potencia = numero1;
+
+        while (auxiliar < numero2) {
+            //potencia =
+            auxiliar++;
+        }
+        return potencia;
+    }
+
 }

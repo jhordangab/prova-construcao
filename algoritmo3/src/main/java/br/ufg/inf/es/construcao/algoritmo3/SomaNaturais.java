@@ -1,24 +1,29 @@
 package br.ufg.inf.es.construcao.algoritmo3;
 
 /**
- * Classe para implementação da função que retorna soma dos naturais de
- * determinado número
+ *
+ * SomaNaturais é a classe para a resolução do algorítmo 3, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
  */
 public class SomaNaturais {
 
     /**
-     * Obtém a soma dos naturais de um número.
+     * Retorna a soma dos números naturais de determinado número.
      *
-     * @param numero
+     * @param numero Número para retorno da soma.
      *
-     * @return int soma
+     * @return Soma.
      *
+     * @throws IllegalArgumentException Se número for menor que 'um'.
      */
     public static int somaNaturais(int numero) {
 
         if (numero < 1) {
             throw new IllegalArgumentException("O número informado não pode ser "
-                    + "menor que zero.");
+                    + "menor que um.");
         }
 
         int auxiliar = 2;

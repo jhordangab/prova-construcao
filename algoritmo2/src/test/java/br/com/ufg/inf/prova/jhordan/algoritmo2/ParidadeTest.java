@@ -3,34 +3,33 @@ package br.com.ufg.inf.prova.jhordan.algoritmo2;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * Testes da classe Paridade
- *
- */
 public class ParidadeTest {
 
-    /**
-     * Testes válidos com números pares
-     */
     @Test
-    public void testNumerosParesParidade() {
-        assertEquals(true, Paridade.paridade(2));
+    public void testNumerosImparesNegativos() {
+        assertEquals(true, Paridade.paridade(-21));
+        assertEquals(true, Paridade.paridade(-4321));
+        assertEquals(true, Paridade.paridade(-2321));
+    }
+    
+    @Test
+    public void testNumerosParesNegativos() {
         assertEquals(true, Paridade.paridade(-22));
         assertEquals(true, Paridade.paridade(-460));
+        assertEquals(true, Paridade.paridade(-10));
+    }
+    
+    @Test
+    public void testNumerosParesPositivos() {
+        assertEquals(true, Paridade.paridade(2));
         assertEquals(true, Paridade.paridade(220));
         assertEquals(true, Paridade.paridade(0));
     }
 
-    /**
-     * Testes válidos com números ímpares
-     */
     @Test
-    public void testNumerosImparesParidade() {
-        assertEquals(false, Paridade.paridade(-1));
-        assertEquals(false, Paridade.paridade(-11));
-        assertEquals(false, Paridade.paridade(-461));
-        assertEquals(false, Paridade.paridade(221));
+    public void testNumerosImparesPositivos() {
+        assertEquals(false, Paridade.paridade(211));
+        assertEquals(false, Paridade.paridade(461));
         assertEquals(false, Paridade.paridade(1));
     }
 
