@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo9;
 
-/**
- *
- * @author Jhordan
- */
 public class Primo {
-    
+
+    public static boolean primo(int numero) {
+        if (numero < 2) {
+            throw new IllegalArgumentException("O número informado "
+                    + "não pode ser menor que 2");
+        }
+
+        int auxiliar = 2;
+
+        while (auxiliar <= (numero - 1)) {
+            if (numero % auxiliar == 0) {
+                return false;
+            }
+            auxiliar++;
+        }
+        return true;
+    }
 }

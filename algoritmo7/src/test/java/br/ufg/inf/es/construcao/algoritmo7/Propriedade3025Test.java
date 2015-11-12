@@ -17,7 +17,7 @@ public class Propriedade3025Test {
 
     @org.junit.Test(expected = IllegalArgumentException.class)
     public void testEntradaInvalida() {
-        assertTrue(Propriedade3025.propriedade3025(-1232));
-        assertTrue(!Propriedade3025.propriedade3025(100000));
+        Propriedade3025.propriedade3025(-1232);
+        Propriedade3025.propriedade3025(100000);
     }
 }
