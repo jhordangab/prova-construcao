@@ -37,7 +37,7 @@ public class PotenciaSoma {
         int potencia = numero1;
 
         while (auxiliar < numero2) {
-            potencia = potencia(potencia, numero1);
+            potencia += potencia(potencia, numero1);
             auxiliar++;
         }
         return potencia;

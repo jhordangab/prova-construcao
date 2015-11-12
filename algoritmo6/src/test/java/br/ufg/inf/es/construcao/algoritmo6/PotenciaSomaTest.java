@@ -7,8 +7,8 @@ public class PotenciaSomaTest {
 
     @Test
     public void testPotenciaSoma() {
-        assertEquals(4, PotenciaSoma.potenciaSoma(2, 2));
-        assertEquals(200, PotenciaSoma.potenciaSoma(20, 3));
+        assertEquals(6, PotenciaSoma.potenciaSoma(2, 2));
+        assertEquals(27030, PotenciaSoma.potenciaSoma(3, 3));
     }
 
     @org.junit.Test(expected = IllegalArgumentException.class)
