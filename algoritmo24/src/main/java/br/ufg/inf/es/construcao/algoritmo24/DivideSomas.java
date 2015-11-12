@@ -10,6 +10,18 @@ package br.ufg.inf.es.construcao.algoritmo24;
  */
 public class DivideSomas {
 
+    /**
+     * Retorna o divideSoma de dois números
+     *
+     * @param numero1
+     * @param numero2
+     *
+     * @return int auxiliarS
+     *
+     * @throws IllegalArgumentException Se o primeiro número for negativo, e
+     * se o segundo número for menor que um.
+     *
+     */
     public static int divideSomas(int numero1, int numero2) {
         if (numero1 < 0) {
             throw new IllegalArgumentException("O primeiro número não "

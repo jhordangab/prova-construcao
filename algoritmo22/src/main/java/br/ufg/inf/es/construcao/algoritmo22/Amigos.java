@@ -2,14 +2,23 @@ package br.ufg.inf.es.construcao.algoritmo22;
 
 /**
  *
- * Amigos é a classe para a resolução do algorítmo 22, da prova de
- * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
- * Lucena.
+ * Amigos é a classe para a resolução do algorítmo 22, da prova de Construção de
+ * Software (UFG), ministrada pelo professor Fábio Nogueira de Lucena.
  *
  * @author Jhordan Gabriel
  */
 public class Amigos {
 
+    /**
+     * Verifica se dois números são amigos
+     *
+     * @param numero1
+     * @param numero2
+     *
+     * @return      <code>true</code> Case sejam amigos <code>false</code> Caso não
+     * sejam amigos
+     *
+     */
     public static boolean amigos(int numero1, int numero2) {
         int somaDivisores1 = somaDivisores(numero1);
         int somaDivisores2 = somaDivisores(numero2);
@@ -18,6 +27,16 @@ public class Amigos {
 
     }
 
+    /**
+     * Retorna a somaDivisores de um número
+     *
+     * @param numero
+     *
+     * @return int soma
+     *
+     * @throws IllegalArgumentException Se o número for menor que um
+     *
+     */
     public static int somaDivisores(int numero) {
         if (numero < 1) {
             throw new IllegalArgumentException("O O número não "
@@ -37,6 +56,18 @@ public class Amigos {
         return auxiliarS;
     }
 
+    /**
+     * Retorna o mod de dois números
+     *
+     * @param numero1
+     * @param numero2
+     *
+     * @return int auxiliar
+     *
+     * @throws IllegalArgumentException Se o primeiro número for menor que um, e
+     * se o segundo número for menor que zero.
+     *
+     */
     public static int mod(int numero1, int numero2) {
         if (numero1 < 1) {
             throw new IllegalArgumentException("O primeiro número não pode ser"

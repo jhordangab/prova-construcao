@@ -10,6 +10,16 @@ package br.ufg.inf.es.construcao.algoritmo23;
  */
 public class SomaDivisores {
 
+    /**
+     * Retorna a somaDivisores de um número
+     *
+     * @param numero
+     *
+     * @return int soma 
+     *
+     * @throws IllegalArgumentException Se o número for menor que um
+     * 
+     */
     public static int somaDivisores(int numero) {
         if (numero < 1) {
             throw new IllegalArgumentException("O O número não "
@@ -29,6 +39,18 @@ public class SomaDivisores {
         return auxiliarS;
     }
     
+    /**
+     * Retorna o mod de dois números
+     *
+     * @param numero1
+     * @param numero2
+     *
+     * @return int auxiliar
+     *
+     * @throws IllegalArgumentException Se o primeiro número for menor que um, e
+     * se o segundo número for menor que zero.
+     *
+     */
     public static int mod(int numero1, int numero2) {
         if (numero1 < 1) {
             throw new IllegalArgumentException("O primeiro número não pode ser"

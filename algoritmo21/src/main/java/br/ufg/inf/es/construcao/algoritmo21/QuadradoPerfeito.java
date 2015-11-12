@@ -10,9 +10,21 @@ package br.ufg.inf.es.construcao.algoritmo21;
  */
 public class QuadradoPerfeito {
 
+    /**
+     * Verifica se um número é quadrado perfeito
+     *
+     * @param numero
+     *
+     * @return      <code>true</code> Caso seja um quadrado perfeito
+     * <code>false</code> Caso não seja um quadrado perfeito
+     *
+     *
+     * @throws IllegalArgumentException Se o número informado for negativo
+     *
+     */
     public static boolean quadradoPerfeito(int numero) {
         if (numero < 1) {
-            throw new IllegalArgumentException("O O número não "
+            throw new IllegalArgumentException("O número não "
                     + "pode ser menor que 'um'.");
         }
 
@@ -21,7 +33,7 @@ public class QuadradoPerfeito {
 
         while (quadradoPerfeito < numero) {
             auxiliar += 2;
-            quadradoPerfeito++;
+            quadradoPerfeito += auxiliar;
         }
         return (quadradoPerfeito == numero);
     }
