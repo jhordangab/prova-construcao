@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo14;
 
+/**
+ *
+ * Somatorio é a classe para a resolução do algorítmo 14, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class Somatorio {
 
     public static int somatorio(int numero) {

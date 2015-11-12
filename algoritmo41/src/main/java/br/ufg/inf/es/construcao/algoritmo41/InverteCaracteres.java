@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo41;
 
 /**
  *
- * @author Jhordan
+ * InverteCaracteres é a classe para a resolução do algorítmo 41, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
  */
 public class InverteCaracteres {
     

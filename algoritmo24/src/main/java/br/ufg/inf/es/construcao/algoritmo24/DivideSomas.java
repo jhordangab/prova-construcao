@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo24;
 
+/**
+ *
+ * DivideSomas é a classe para a resolução do algorítmo 24, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class DivideSomas {
 
     public static int divideSomas(int numero1, int numero2) {

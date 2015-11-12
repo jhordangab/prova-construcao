@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo26;
 
+/**
+ *
+ * ModSimples é a classe para a resolução do algorítmo 26, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class ModSimples {
 
     public static int modSimples(int numero1, int numero2) {

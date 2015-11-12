@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo22;
 
+/**
+ *
+ * Amigos é a classe para a resolução do algorítmo 22, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class Amigos {
 
     public static boolean amigos(int numero1, int numero2) {

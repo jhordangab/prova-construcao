@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo27;
 
+/**
+ *
+ * Mod é a classe para a resolução do algorítmo 27, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class Mod {
 
     public static int mod(int numero1, int numero2) {

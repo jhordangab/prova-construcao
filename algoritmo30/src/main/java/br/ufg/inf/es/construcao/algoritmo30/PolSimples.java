@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo30;
 
 /**
  *
- * @author Jhordan
+ * PolSimples é a classe para a resolução do algorítmo 30, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
  */
 public class PolSimples {
     

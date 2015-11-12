@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo17;
 
+/**
+ *
+ * FatorialSoma é a classe para a resolução do algorítmo 17, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class FatorialSoma {
     public static int fatorialSoma(int numero){
         

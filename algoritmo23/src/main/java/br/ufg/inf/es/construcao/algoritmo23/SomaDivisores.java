@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo23;
 
+/**
+ *
+ * SomaDivisores é a classe para a resolução do algorítmo 23, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class SomaDivisores {
 
     public static int somaDivisores(int numero) {

@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo25;
 
+/**
+ *
+ * DivideSubtracoes é a classe para a resolução do algorítmo 25, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class DivideSubtracoes {
 
     public static int divideSubtracoes(int numero1, int numero2) {

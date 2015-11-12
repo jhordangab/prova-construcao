@@ -8,7 +8,6 @@ package br.ufg.inf.es.construcao.algoritmo8;
  *
  * @author Jhordan Gabriel
  */
-
 public class Propriedade153 {
 
     /**

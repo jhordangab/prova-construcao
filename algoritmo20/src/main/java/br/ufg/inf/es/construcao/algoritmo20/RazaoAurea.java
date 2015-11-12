@@ -1,5 +1,13 @@
 package br.ufg.inf.es.construcao.algoritmo20;
 
+/**
+ *
+ * RazaoAurea é a classe para a resolução do algorítmo 20, da prova de
+ * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
+ * Lucena.
+ *
+ * @author Jhordan Gabriel
+ */
 public class RazaoAurea {
 
     public static int razaoAurea(int termo1, int termo2, int fator) {
