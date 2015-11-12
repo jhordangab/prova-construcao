@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo13;
 
-/**
- *
- * @author Jhordan
- */
 public class NumeroHarmonico {
-    
+
+    public static int numeroHarmonico(int numero) {
+        if (numero < 1) {
+            throw new IllegalArgumentException("O número"
+                    + "não pode ser menor que 'um'");
+        }
+
+        int auxiliar = 2;
+        int auxiliarS = 1;
+
+        while (auxiliar <= numero) {
+            auxiliarS = auxiliarS + (1 / auxiliar);
+            auxiliar++;
+        }
+
+        return auxiliarS;
+    }
 }

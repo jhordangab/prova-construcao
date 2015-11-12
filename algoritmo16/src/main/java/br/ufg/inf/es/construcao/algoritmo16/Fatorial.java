@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo16;
 
-/**
- *
- * @author Jhordan
- */
 public class Fatorial {
-    
+
+    public static int fatorial(int numero) {
+        if (numero < 1) {
+            throw new IllegalArgumentException("O número"
+                    + "não pode ser menor que 'um'");
+        }
+
+        int auxiliar = 2;
+        int fatorial = 1;
+
+        while (auxiliar <= numero) {
+            fatorial = fatorial * auxiliar;
+            auxiliar++;
+        }
+
+        return fatorial;
+    }
 }
