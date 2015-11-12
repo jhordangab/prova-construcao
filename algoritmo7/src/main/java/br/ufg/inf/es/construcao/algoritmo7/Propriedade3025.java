@@ -24,7 +24,7 @@ public class Propriedade3025 {
      *
      */
     public static boolean propriedade3025(int numero) {
-        if (numero < 0 || numero > 100000) {
+        if (numero < 0 || numero > 10000) {
             throw new IllegalArgumentException("O número informado "
                     + "precisa estar no intervalo entre 0 e 9999.");
         }
