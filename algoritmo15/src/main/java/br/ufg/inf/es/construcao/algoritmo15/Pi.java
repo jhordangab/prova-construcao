@@ -2,14 +2,23 @@ package br.ufg.inf.es.construcao.algoritmo15;
 
 /**
  *
- * Pi é a classe para a resolução do algorítmo 15, da prova de
- * Construção de Software (UFG), ministrada pelo professor Fábio Nogueira de
- * Lucena.
+ * Pi é a classe para a resolução do algorítmo 15, da prova de Construção de
+ * Software (UFG), ministrada pelo professor Fábio Nogueira de Lucena.
  *
  * @author Jhordan Gabriel
  */
 public class Pi {
 
+    /**
+     * Retorna o pi de determinado número.
+     *
+     * @param numero .
+     *
+     * @return pi
+     *
+     * @throws IllegalArgumentException Se número for menor que um.
+     *
+     */
     public static int pi(int numero) {
         if (numero < 1) {
             throw new IllegalArgumentException("O número"

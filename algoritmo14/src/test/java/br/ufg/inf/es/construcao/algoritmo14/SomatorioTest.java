@@ -7,7 +7,13 @@ public class SomatorioTest {
 
     @Test
     public void testSomatorio() {
-        assertEquals(2, Somatorio.somatorio(2));
+        assertEquals(0, Somatorio.somatorio(3));
+    }
+    
+    @org.junit.Test(expected = IllegalArgumentException.class)
+    public void entradaInvalida() {
+        Somatorio.somatorio(-12);
+        Somatorio.somatorio(0);
     }
 
 }

@@ -10,6 +10,18 @@ package br.ufg.inf.es.construcao.algoritmo18;
  */
 public class LogNaturalSimples {
 
+    /**
+     * Retorna log natural simples de um numero
+     *
+     * @param numero
+     * @param log
+     *
+     * @return int soma 
+     *
+     * @throws IllegalArgumentException Se o número informado for menor que 1,
+     * ou se o log informado for menor que 2.
+     * 
+     */
     public static int logNaturalSimples(int numero, int log) {
         if (numero < 1) {
             throw new IllegalArgumentException("O número"
@@ -18,7 +30,7 @@ public class LogNaturalSimples {
 
         if (log < 2) {
             throw new IllegalArgumentException("O log"
-                    + "não pode ser menor que 'um'");
+                    + "não pode ser menor que 'dois'");
         }
 
         int auxiliar = 2;
@@ -33,6 +45,18 @@ public class LogNaturalSimples {
         return auxiliarE;
     }
 
+    /**
+     * Retorna a soma dos números naturais de determinado número.
+     *
+     * @param base Base da potência desejada.
+     * @param expoente Expoente da potência desejada.
+     *
+     * @return int potencia
+     *
+     * @throws IllegalArgumentException Se a base for menor que 'um' e/ou
+     * expoente for um número negativo.
+     *
+     */
     public static int potencia(int base, int expoente) {
 
         if (base < 1) {
@@ -55,6 +79,16 @@ public class LogNaturalSimples {
         return potencia;
     }
 
+    /**
+     * Retorna o fatorial de determinado número.
+     *
+     * @param numero .
+     *
+     * @return fatorial
+     *
+     * @throws IllegalArgumentException Se número for menor que um.
+     *
+     */
     public static int fatorial(int numero) {
         if (numero < 1) {
             throw new IllegalArgumentException("O número"

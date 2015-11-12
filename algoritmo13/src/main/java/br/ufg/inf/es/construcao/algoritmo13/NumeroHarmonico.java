@@ -10,6 +10,16 @@ package br.ufg.inf.es.construcao.algoritmo13;
  */
 public class NumeroHarmonico {
 
+    /**
+     * Retorna o número harmônico de determinado número.
+     *
+     * @param numero .
+     *
+     * @return auxiliarS Número Harmonico
+     *
+     * @throws IllegalArgumentException Se número for menor que um.
+     *
+     */
     public static int numeroHarmonico(int numero) {
         if (numero < 1) {
             throw new IllegalArgumentException("O número"

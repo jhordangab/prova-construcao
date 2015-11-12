@@ -10,6 +10,16 @@ package br.ufg.inf.es.construcao.algoritmo16;
  */
 public class Fatorial {
 
+    /**
+     * Retorna o fatorial de determinado número.
+     *
+     * @param numero .
+     *
+     * @return fatorial
+     *
+     * @throws IllegalArgumentException Se número for menor que um.
+     *
+     */
     public static int fatorial(int numero) {
         if (numero < 1) {
             throw new IllegalArgumentException("O número"

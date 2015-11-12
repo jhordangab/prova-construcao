@@ -10,9 +10,19 @@ package br.ufg.inf.es.construcao.algoritmo14;
  */
 public class Somatorio {
 
+    /**
+     * Retorna o somatório de determinado número.
+     *
+     * @param numero .
+     *
+     * @return auxiliarS número para somatório
+     *
+     * @throws IllegalArgumentException Se número for menor que um.
+     *
+     */
     public static int somatorio(int numero) {
         if (numero < 1) {
-            throw new IllegalArgumentException("O segundo número"
+            throw new IllegalArgumentException("O número"
                     + "não pode ser menor que 'um'");
         }
 
