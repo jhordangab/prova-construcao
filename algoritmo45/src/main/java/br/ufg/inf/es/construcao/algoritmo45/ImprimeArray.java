@@ -9,5 +9,27 @@ package br.ufg.inf.es.construcao.algoritmo45;
  * @author Jhordan Gabriel
  */
 public class ImprimeArray {
-    
+
+    /**
+     * Imprime todos elementos de um array
+     *
+     * @param array
+     * @param numero
+     *
+     * @throws IllegalArgumentException Se o número for negativo
+     *
+     */
+    public static void imprimeArray(int[] array, int numero) {
+        if (numero < 0) {
+            throw new IllegalArgumentException("O número não pode ser "
+                    + "negativo");
+        }
+
+        int posicao = 1;
+
+        while (posicao <= numero) {
+            System.out.println(array[posicao]);
+            posicao++;
+        }
+    }
 }
