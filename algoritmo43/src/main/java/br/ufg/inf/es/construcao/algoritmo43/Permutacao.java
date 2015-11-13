@@ -19,6 +19,7 @@ public class Permutacao {
      * @param conjunto
      * @param resultado
      *
+     * return List resultado
      */
     public static List<String> permutacao(String prefixo, String conjunto, List<String> resultado) {
         if (conjunto.length() == 1) {

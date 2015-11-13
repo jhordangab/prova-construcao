@@ -9,5 +9,9 @@ package br.ufg.inf.es.construcao.algoritmo44;
  * @author Jhordan Gabriel
  */
 public class Combinacao {
-    
+    /**
+     *
+     * Classe não implementada
+     *
+     */
 }
