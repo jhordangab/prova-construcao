@@ -10,6 +10,17 @@ package br.ufg.inf.es.construcao.algoritmo29;
  */
 public class RaizQuadrada {
 
+    /**
+     * Retorna a raiz quadrada
+     *
+     * @param numero
+     * @param auxiliar
+     *
+     * @return int raizQuadrada
+     *
+     * @throws IllegalArgumentException Se auxiliar for menor que 1
+     *
+     */
     public static int raizQuadrada(int numero, int auxiliar) {
         if (auxiliar < 1) {
             throw new IllegalArgumentException("O número não "
