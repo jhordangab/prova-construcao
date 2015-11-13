@@ -15,5 +15,4 @@ public class SomatorioTest {
         Somatorio.somatorio(-12);
         Somatorio.somatorio(0);
     }
-
 }

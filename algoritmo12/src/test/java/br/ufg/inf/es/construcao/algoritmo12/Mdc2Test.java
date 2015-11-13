@@ -22,5 +22,4 @@ public class Mdc2Test {
         Mdc2.mdc2(2, 0);
         Mdc2.mdc2(12, 0);
     }
-
 }

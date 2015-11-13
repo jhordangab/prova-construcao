@@ -7,9 +7,9 @@ public class DivideSomasTest {
     
     @Test
     public void testDivideSomas() {
-        assertEquals(6, DivideSomas.divideSomas(3, 3));
-        assertEquals(6, DivideSomas.divideSomas(2, 6));
-        assertEquals(5, DivideSomas.divideSomas(3, 5));
+        assertEquals(1, DivideSomas.divideSomas(3, 3));
+        assertEquals(0, DivideSomas.divideSomas(2, 6));
+        assertEquals(0, DivideSomas.divideSomas(3, 5));
     }
     
     @org.junit.Test(expected = IllegalArgumentException.class)

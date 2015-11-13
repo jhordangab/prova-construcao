@@ -18,8 +18,8 @@ public class DivideSomas {
      *
      * @return int auxiliarS
      *
-     * @throws IllegalArgumentException Se o primeiro número for negativo, e
-     * se o segundo número for menor que um.
+     * @throws IllegalArgumentException Se o primeiro número for negativo, e se
+     * o segundo número for menor que um.
      *
      */
     public static int divideSomas(int numero1, int numero2) {
@@ -40,6 +40,6 @@ public class DivideSomas {
             auxiliarS += numero2;
             auxiliarD++;
         }
-        return auxiliarS;
+        return auxiliarD;
     }
 }

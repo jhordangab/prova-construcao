@@ -16,5 +16,4 @@ public class NumeroHarmonicoTest {
         NumeroHarmonico.numeroHarmonico(-12);
         NumeroHarmonico.numeroHarmonico(0);
     }
-
 }
