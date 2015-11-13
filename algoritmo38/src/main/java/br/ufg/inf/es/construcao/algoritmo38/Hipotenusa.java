@@ -39,14 +39,14 @@ public class Hipotenusa {
      *
      */
     public static int raizQuadrada(int numero, int auxiliar) {
-        if (auxiliar < 1) {
+        if (numero < 1) {
             throw new IllegalArgumentException("O número não "
                     + "pode ser menor que 'um'.");
         }
 
         int raizQuadrada = 1;
 
-        while (auxiliar >= 0) {
+        while (auxiliar > 0) {
             raizQuadrada = (raizQuadrada + numero / auxiliar) / 2;
             auxiliar--;
         }

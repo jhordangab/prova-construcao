@@ -18,11 +18,11 @@ public class RaizQuadrada {
      *
      * @return int raizQuadrada
      *
-     * @throws IllegalArgumentException Se auxiliar for menor que 1
+     * @throws IllegalArgumentException Se numero for menor que 1
      *
      */
     public static int raizQuadrada(int numero, int auxiliar) {
-        if (auxiliar < 1) {
+        if (numero < 1) {
             throw new IllegalArgumentException("O número não "
                     + "pode ser menor que 'um'.");
         }
