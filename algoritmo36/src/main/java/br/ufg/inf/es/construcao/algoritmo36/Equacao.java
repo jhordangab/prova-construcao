@@ -10,6 +10,12 @@ package br.ufg.inf.es.construcao.algoritmo36;
  */
 public class Equacao {
 
+    /**
+     * Equaçao
+     *
+     * @return auxiliaS
+     *
+     */
     public static int equacao() {
         int auxiliarS = 0;
         int auxiliarX = 1;

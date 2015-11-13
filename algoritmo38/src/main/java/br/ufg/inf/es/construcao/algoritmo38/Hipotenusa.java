@@ -10,6 +10,15 @@ package br.ufg.inf.es.construcao.algoritmo38;
  */
 public class Hipotenusa {
 
+    /**
+     * Retorna a hipotenusa de dois números.
+     *
+     * @param lado1
+     * @param lado2
+     *
+     * @return hipotenusa
+     *
+     */
     public static int hipotenusa(int lado1, int lado2) {
         int ladoX = lado1 * lado1;
         int ladoY = lado2 * lado2;
@@ -18,6 +27,17 @@ public class Hipotenusa {
         return hipotenusa;
     }
 
+    /**
+     * Retorna a raiz quadrada
+     *
+     * @param numero
+     * @param auxiliar
+     *
+     * @return int raizQuadrada
+     *
+     * @throws IllegalArgumentException Se auxiliar for menor que 1
+     *
+     */
     public static int raizQuadrada(int numero, int auxiliar) {
         if (auxiliar < 1) {
             throw new IllegalArgumentException("O número não "
