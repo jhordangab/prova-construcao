@@ -11,15 +11,8 @@ package br.ufg.inf.es.construcao.algoritmo30;
 public class PolSimples {
 
     /**
-     * Retorna o PolSimples
      *
-     * @param x
-     * @param array
-     *
-     * @return int pol
-     *
-     * @throws IllegalArgumentException Se o g for menor que 1,e a di ferente de
-     * zero.
+     * Classe não implementada
      *
      */
 }

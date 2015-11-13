@@ -9,5 +9,9 @@ package br.ufg.inf.es.construcao.algoritmo31;
  * @author Jhordan Gabriel
  */
 public class PolHorner {
-    
+    /**
+     *
+     * Classe não implementada
+     *
+     */
 }
